@@ -1,28 +1,20 @@
-== README
+== Capture Heatmap
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Draw Heatmap Layer of captured portals on Google Maps.
 
-Things you may want to cover:
+=== Configuration
 
-* Ruby version
+<code>cp .env.sample .env</code>
 
-* System dependencies
+and edit +.env+
 
-* Configuration
+=== Deployment instructions
 
-* Database creation
+<code>foreman start</code>
 
-* Database initialization
+=== Import logs
 
-* How to run the test suite
+<code>foreman run ./bin/rake import_log:worker</code>
 
-* Services (job queues, cache servers, search engines, etc.)
+=== Heroku
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
