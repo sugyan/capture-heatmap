@@ -5,6 +5,9 @@
         "Google Maps"
     ],
     "repository": "https://github.com/sugyan/capture-heatmap",
+    "scripts": {
+        "postdeploy": "bundle exec rake db:setup"
+    },
     "env": {
         "MIN_LAT_E6": "Min Latitude of Target Range (x 1e6)",
         "MIN_LNG_E6": "Min Longitude of Target Range (x 1e6)",
