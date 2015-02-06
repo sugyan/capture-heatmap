@@ -1,0 +1,26 @@
+{
+    "name": "Capture Heatmap",
+    "description": "",
+    "keywords": [
+        "Google Maps"
+    ],
+    "repository": "https://github.com/sugyan/capture-heatmap",
+    "env": {
+        "MIN_LAT_E6": "Min Latitude of Target Range (x 1e6)",
+        "MIN_LNG_E6": "Min Longitude of Target Range (x 1e6)",
+        "MAX_LAT_E6": "Max Latitude of Target Range (x 1e6)",
+        "MAX_LNG_E6": "Max Longitude of Target Range (x 1e6)",
+        "GOOGLE_MAPS_APIKEY": {
+            "description": "API key for Google Maps",
+            "required": false
+        },
+        "TZ": {
+            "description": "time zone",
+            "required": false,
+            "value": "Asia/Tokyo"
+        }
+    },
+    "addons": [
+        "pgbackups:plus"
+    ]
+}
