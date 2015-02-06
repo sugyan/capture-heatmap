@@ -4,7 +4,7 @@ Draw Heatmap Layer of captured portals on Google Maps.
 
 === Configuration
 
-<code>cp .env.sample .env</code>
+<code>cp .env.example .env</code>
 
 and edit +.env+
 
