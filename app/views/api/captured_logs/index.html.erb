@@ -1,0 +1,12 @@
+<ul class="list-unstyled comm">
+<% @api_captured_logs.each do |captured_log| %>
+<li>
+  <span class="timestamp"><%= captured_log.captured_at.strftime('%Y-%m-%d %H:%M:%S') %></span>
+  &nbsp;
+  <span class="<%= captured_log.team %>"><%= captured_log.player %></span>
+  captured
+  <u><%= captured_log.portal.name %></u>
+  <span class="portal_address">(<%= captured_log.portal.address %>)</span>
+</li>
+<% end %>
+</ul>

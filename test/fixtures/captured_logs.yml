@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  portal_id: 
+  captured_at: 2015-02-03 21:24:27
+  player: MyString
+  team: MyString
+
+two:
+  portal_id: 
+  captured_at: 2015-02-03 21:24:27
+  player: MyString
+  team: MyString
